@@ -82,7 +82,7 @@ export default function TextForm(props) {
 
         <div className="my-5">
           <p style={{color: props.style === 'light' ?  'black' :'white'}}>
-            {text.split(" ").filter((e)=> {return e.length!==0}).length} Words <br/>
+            {text.split(/\s+/).filter((e)=> {return e.length!==0}).length} Words <br/>
             {text.length} Characters <br/>
             {0.008 * text.split(" ").filter((e)=> {return e.length!==0}).length} Minutes Read<br/>
           </p>
