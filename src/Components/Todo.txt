@@ -1,0 +1,5 @@
+1. Search & Replace
+2. Remove duplicate lines.
+3. Dictionarry
+4. Language translator
+5. Language support

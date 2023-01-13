@@ -1,0 +1,27 @@
+.abc{
+  /* background-color: darkslateblue; */
+  text-align: center;
+}
+
+.main{
+  height: 100vh;
+  /* background-color: rgba(0, 0, 0, 0.53); */
+}
+
+.textSize{
+  font-size: 0.8rem;
+}
+.special{
+  text-align: justify;
+  padding: 0 4rem;
+  font-style: italic;
+}
+
+.textarea_style{
+  border: 1px solid black;
+}
+
+.textarea_style:hover{
+  /* box-shadow: black; */
+  background-color: yellow;
+}
