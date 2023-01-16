@@ -9,7 +9,6 @@ import {
   Route,
   Routes,
 } from "react-router-dom";
-// import Footer from './Components/Footer';
 
 function App() {
 
@@ -65,7 +64,6 @@ function App() {
             <Route exact path="/" element={<TextForm title="Try Entering some Text..." style={theme}/>} />
             <Route exact path="/about" element={<About style={mode}/>} />
         </Routes>
-        {/* <Footer/> */}
       </Router>
     </div>
 
